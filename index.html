@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio pessoal</title>
+    <link rel="stylesheet" href="styles/styles.css"> <!-- Link para o arquivo CSS -->
+</head>
+<body>
+    <header>
+        <h1>Portfólio pessoal</h1> <!-- Cabeçalho do site -->
+    </header>
+    <nav>
+        <ul>
+            <!-- Links de navegação -->
+            <li><a href="#" onclick="mostrarConteudo('conteudo1')">Sobre mim</a></li>
+            <li><a href="#" onclick="mostrarConteudo('conteudo2')">Formação educacional</a></li>
+            <li><a href="#" onclick="mostrarConteudo('conteudo3')">Portfólio</a></li>
+            <li><a href="#" onclick="mostrarConteudo('conteudo4')">Contato</a></li>
+        </ul>
+    </nav>
+    <main id="conteudo">
+        <!-- Conteúdo dinâmico -->
+        <div id="conteudo1" class="conteudo">
+            <h2>Sobre Mim</h2>
+            <p>Sou um entusiasta de tecnologia e apaixonado por jogos online e computadores. Desde jovem, fiquei fascinado pelo mundo da programação e decidi seguir essa paixão ao longo da minha vida. Atualmente, estou estudando engenharia de software, determinado a transformar minha paixão em uma carreira gratificante. Cada linha de código que escrevo é uma oportunidade para aprender e crescer como desenvolvedor. Meu objetivo é contribuir para o avanço da tecnologia, criando soluções inovadoras que impactem positivamente a vida das pessoas. Estou ansioso para enfrentar os desafios e oportunidades que o futuro na área de software reserva para mim.</p>
+        </div>
+        <div id="conteudo2" class="conteudo" style="display: none;">
+            <h2>Formação educacional</h2>
+            <p> Bacharelado em Engenharia de Software.<br>
+                Centro Universitário Internacional UNINTER.<br>
+                Conclusão prevista: 2026.<br>
+                <br>
+                Ensino Médio completo.<br>
+                Conclusão em 2018.<br>
+                <br>
+                Curso de inglês NEW U-BEST, básico ao avançado.<br>
+                Centro Universitário Internacional UNINTER.<br>
+                Conclusão prevista: 2024.</p>
+        </div>
+        <div id="conteudo3" class="conteudo" style="display: none;">
+            <h2>Portfólio</h2>
+            <p><b>Página em desenvolvimento!</b><br>
+                Atualmente estou trabalhando para preencher meu portfólio com projetos incríveis! Essa página está em construção e no momento está vazia.<br>
+                Peço desculpa pelo inconveniente e agradeço sua compreensão.<br>
+                Por favor, volte em uma data posterior para explorar meus projetos finalizados!</p>
+        </div>
+        <div id="conteudo4" class="conteudo" style="display: none;">
+            <!-- Formulário de contato -->
+            <h2>Contato</h2>
+            <form id="form-contato">
+                <!-- Campos do formulário -->
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                </div>
+                <!-- Botão de envio do formulário -->
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+    
+    
+    <footer>
+        <p>&copy; 2024 - Augusto Borges Fachini RU: 4368670</p> <!-- Rodapé do site -->
+    </footer>
+
+    <script src="scripts/scripts.js"></script> <!-- Link para o arquivo JavaScript -->
+</body>
+</html>
